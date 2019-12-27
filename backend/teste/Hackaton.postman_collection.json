@@ -1,0 +1,77 @@
+{
+	"info": {
+		"_postman_id": "06d4717a-0bf8-4c71-998d-c14632d191a9",
+		"name": "Hackaton",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Penalizacoes",
+			"item": [
+				{
+					"name": "List",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/penalizacoes",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"penalizacoes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "List Copy",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"favorito\": 1\n}"
+						},
+						"url": {
+							"raw": "{{url}}/penalizacoes/76200908",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"penalizacoes",
+								"76200908"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "47462a94-3fdd-4961-aa2d-248c2b85d7e6",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "1775f54d-544f-4752-9d17-380b9f739e22",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"protocolProfileBehavior": {}
+}

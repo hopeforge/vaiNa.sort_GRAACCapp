@@ -1,0 +1,28 @@
+p{
+    font: 20px Verdana;
+    padding-top: 20px;
+}
+.center{
+    text-align: center;
+}
+.center a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    background-color: #ff278f;
+    border-radius: 18px;
+    width: 120px;
+    text-decoration: none;
+    outline: none;
+    color: #f3f3f3;
+    margin: 10px auto;
+    padding: 8px;
+}
+.center a:hover{
+    color: #ffffff;
+    background-color: #ca1e71;
+    -webkit-box-shadow: -2px 4px 19px -8px #9b9b9b;
+    -moz-box-shadow: -2px 4px 19px -8px #9b9b9b;
+    box-shadow: -2px 4px 19px -8px #9b9b9b;
+}

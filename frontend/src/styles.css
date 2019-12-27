@@ -1,0 +1,35 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    background-image: url("assets/bgGraacc.png");
+    /* background-size: cover; */
+    background-color: #FCFCFC;
+    padding: 20px;
+}
+body .ui-menubar{
+    border: 0 none;
+}
+h2{
+   text-transform: uppercase;
+   font-weight: bold; 
+}
+a{
+    color: #0498bd;
+}
+li.ng2-smart-page-item{
+    padding: 11px;
+    background-color: #f3f3f3;
+    color: #07234c;
+    font-weight: bold;
+}
+table tr:nth-child(odd) td{
+    background-color: #e2e2e2;
+}
+table tr:nth-child(even) td{
+    background-color: #fcfcfc;
+}
+table tr th{
+    background-color: #fcfcfc;
+}
+table{
+    border:1px solid #22a071;
+}

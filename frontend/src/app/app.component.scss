@@ -1,0 +1,25 @@
+// global application styles
+a {
+    cursor: pointer;
+}
+#logo{
+    max-width: 125px;
+}
+#main-menu.p-col-10{
+    width: calc(100% - 125px);
+}
+header{
+    border-bottom: 1px solid #efefef;
+}
+footer{
+    bottom: 0px;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    background-color: #fcfcfc;
+    padding: 2px;
+}
+div.content{
+    background-color: #fcfcfc;
+    padding: 10px;
+}
